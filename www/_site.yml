@@ -9,8 +9,6 @@ navbar:
     - text: "About Me"
       icon: fa-user-check
       href: about.html
-    - text: "Assignments"
-      icon: fa-laptop     
     - text: "Stories"
       icon: fa-newspaper
       menu:
