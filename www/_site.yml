@@ -1,0 +1,36 @@
+name: "www"
+output_dir: "../docs"
+navbar:
+  title: "Your Name"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "About Me"
+      icon: fa-user-check
+      href: about.html
+    - text: "Assignments"
+      icon: fa-laptop     
+    - text: "Stories"
+      icon: fa-newspaper
+      menu:
+        - text: "Story 1"
+          href: story1.html
+        - text: "Story 2"
+          href: story2.html
+  right:
+    - icon: fa-envelope 
+      href: mailto:bbaumer@smith.edu
+    - icon: fa-github
+      href: http://www.github.com/beanumber
+    - icon: fa-twitter
+      href: http://www.twitter.com/BaumerBen
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/ben-baumer-809b3a75
+
+output:
+  html_document:
+    theme: lumen
+    highlight: pygments
+    toc: true
+    toc_float: true
