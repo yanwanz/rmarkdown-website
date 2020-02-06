@@ -39,5 +39,7 @@ rmarkdown::render_site("www")
 
   - [R Markdown
     websites](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html)
+  - [Bootstrap 3.3
+    components](https://getbootstrap.com/docs/3.3/components/)
   - [Bootswatch themes](https://bootswatch.com/3/)
   - [Font Awesome icons](https://fontawesome.com/icons?d=gallery&m=free)
