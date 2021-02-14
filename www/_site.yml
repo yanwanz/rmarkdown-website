@@ -9,13 +9,13 @@ navbar:
     - text: "About Me"
       icon: fa-user-check
       href: about.html
-    - text: "Stories"
+    - text: "Blog"
       icon: fa-newspaper
       menu:
-        - text: "Story 1"
-          href: story1.html
-        - text: "Story 2"
-          href: story2.html
+        - text: "Post 1"
+          href: post1.html
+        - text: "Post 2"
+          href: post2.html
   right:
     - icon: fa-envelope 
       href: mailto:bbaumer@smith.edu
