@@ -1,5 +1,5 @@
 ---
-title: "My first story"
+title: "SDS 410 Blog Post #1"
 ---
 
-It was a dark and stormy night...
+### Thoughts on the Introduction chapter of *Data Feminism*

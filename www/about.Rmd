@@ -2,4 +2,4 @@
 title: "About Me"
 ---
 
-blah blah blah
+Hi, I am Yanwan, a senior at Smith.
