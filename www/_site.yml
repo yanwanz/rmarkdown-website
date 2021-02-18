@@ -1,7 +1,7 @@
 name: "www"
 output_dir: "../docs"
 navbar:
-  title: "Your Name"
+  title: "Yanwan"
   left:
     - text: "Home"
       icon: fa-home
@@ -18,7 +18,7 @@ navbar:
           href: post2.html
   right:
     - icon: fa-envelope 
-      href: mailto:bbaumer@smith.edu
+      href: mailto:yzhu62@smith.edu
     - icon: fa-github
       href: http://www.github.com/beanumber
     - icon: fa-twitter
