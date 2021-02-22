@@ -2,4 +2,4 @@
 title: "About Me"
 ---
 
-Hi, I am Yanwan, a senior at Smith.
+Hi, I am Yanwan. I am writing about *Data Feminism* on this website.

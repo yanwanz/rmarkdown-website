@@ -1,5 +1,18 @@
 ---
 title: "SDS 410 Blog Post #1"
 ---
-
+## Algorithms May Turn Social Media into Echo Chambers of Biases
 ### Thoughts on the Introduction chapter of *Data Feminism*
+
+---
+
+The introduction chapter of *Data Feminism* highlighted the experience of Christine Darden, who employed data as a tool to fight against gender inequality at her workplace NASA. The authors used Darden’s example to point out how data could be a powerful tool to challenge the real-world power dynamics. This is an inspiring story for aspiring data feminists who want to use data science for activism; yet, the authors also reminded us how our world and our uses of data perpetuate inequalities and oppression.
+
+Just as D’Ignazio and Klein mentioned in the chapter, **data is a double-edged sword**, especially when more and more of our social activities take place in the virtual world where invisible algorithms are operating and influencing what people see and do. It is exactly these algorithms, along with the human beings behind them, that introduced the bias from the real world into the cyberspace.
+
+One example would be the content recommendation algorithm in TikTok, a popular social app with about 1 billion monthly active users. Marc Faddoul, an AI research scientist at Berkeley, pointed out that TikTok tends to promote creators who “look almost the same” as people that users are already following ^[https://twitter.com/MarcFaddoul/status/1232014908536938498
+]. As a consequence, if the majority of the creators on TikTok are white, BIPOC content creators would be **unfairly disadvantaged**, because the voices of creators from the majority group are more likely to be amplified by the algorithm.
+
+TikTok has also been accused of suppressing videos by creators who are **“susceptible to bullying or harassment”**.^["TikTok Admits It Suppressed Videos by Disabled, Queer, and Fat Creators": https://slate.com/technology/2019/12/tiktok-disabled-users-videos-suppressed.html] These include people who are disabled, neurodivergent or with facial disfigurement, and users that include the hashtag #fatwoman or LGBTQ identifiers, such as rainbow flags, in their profiles. With such a problematic policy, the algorithm would unfortunately become **ableist, LGBTQ-unfriendly, and fatphobic**, and fail to create an inclusive environment for all user groups.
+
+In this way, real-world biases are baked into the TikTok's algorithms, creating an echo chamber where these biased opinions get reinforced, intentionally or unintentionally. Therefore, we need to constantly reflect on any data or algorithms that we use and always ask: “**do our analyses and algorithms reproduce the power hierarchies and systematic oppressions in the real world?**” We should also be calling out the individuals or organizations when more accountability is needed for the systems, algorithms, and analyses that people create.
