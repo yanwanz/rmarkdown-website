@@ -1,5 +1,17 @@
 ---
-title: "My second story"
+title: "SDS 410 Blog Post #2"
 ---
 
-It was the best of times, it was the worst of times...
+
+## Who benefits from data?
+### Thoughts on Chapter 1 of *Data Feminism*
+
+In *the Power Chapter*, D'Ignazio and Klein presented several case studies of **how power manifests itself** throughout data collection, model building, practical applications, and so on. They introduced the “**matrix of domination**”, which could serve as an useful framework for examining power in our data science practices. They alerted us to the “*privilege hazard*” caused by unbalanced compositions of perscpectives from the dominant and marginalized groups. Pointing the sad truth that there are lots of datasets that are not collected, because of **structural bias and indifference**, the authors introduced the notion of “counterdata” that activists are collecting on their own to do justice.
+
+In addition, the authors made a remarkable point that drew my attention. **“Data are expensive and resource-intensive”**, they wrote, “so only already powerful institutions...have the means to work with them at scale.” As omnipresent as it may seem, data are often quite difficult to obtain. The authors summarized that the majority of data are used for **three S’s** - *science, surveillance, and selling*- and it is often the case that institutions such as corporations, governments, and universities are taking control of the data that we are trying to access. 
+
+I have encountered many scenarios where the datasets tailored my need were not easily accessible and I had to give up or find alternatives to get around with the problem. 	Once I was trying to find the sales data of a particular book to test my hypothesis and write an article. This might seem to be an easy task, but almost all the sources I found were subscription services, which are typically purchased by companies for business purposes. I ended up scraping the review data from Amazon on my own, which might not accurately reflect the actual book sales.
+
+This has made me wonder if some data become valuable, not only because of the problems they can potentially solve, but also because of the general public’s lack of access. To put the question in a simpler way, **are powerful institutions gatekeeping data for their own benefits and profits?** This question becomes even more relevant when we recognize that the process of obtaining data is **exploitative** by nature, as shown by D'Ignazio and Klein in the chapter.
+
+From another angle, limited access to data means less transparency, **making it more difficult for individuals to examine power**. This also goes back to the problem of the scarcity of datasets and the idea of “counterdata”. When data are unavailable to the public, either because they are controlled by certain organizations or because not collected at all, people need to do “extra work” to gather the information they need. The presences of “counterdata” and “data activism” are empowering and alarming at the same time.
