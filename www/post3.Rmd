@@ -1,0 +1,19 @@
+---
+title: "SDS 410 Blog Post #3"
+---
+
+
+## Data Justice and Science Ethics
+### Thoughts on Chapter 3 of *Data Feminism*
+
+Chapter 3 reminds me of some practices of scientific research in the field of cognitive science, a field that I am most familiar with. While such practices are not really about creating algorithms or systems, many of them are making generalizations about populations, usually applying some quantitative methods. Therefore, I would like to talk about some ideas that came to my mind, in parallel with the main themes of this chapter.
+
+Cognitive science research benefits from looking into so-called "atypical population", such as neurodivergent people or the Deaf community. Due to the perpetuating social stigmas, researchers should always keep in mind the hazard of creating **"the deficit narratives"** in science that reduce a group or culture to its "problems" or particular characteristics. 
+
+For example, the Deaf community (with the D) often considers Deafness (again, D) as a culture, rather than as a disability or deficiency commonly reflected in the ableist narrative of our mainstream society. Researchers need to be mindful about this important fact while interacting with their subjects in the data collection process. Some linguists has also called out hearing researchers who do not make any effort to learn sign language and rely on bilingual consultants, criticizing that they were merely trying to take advantage of the Deaf community without even acknowledging their language and culture.
+
+In addition, the **"imagined objectivity of data"** also comes into play in scientific studies. Research data are often collected to verify or invalidate hypothesis and theories, so scientists need to take the responsibility to hold their research accountable, or the literature would be infused with oppressive ideas.
+
+When I was doing my SURF, I worked on a project that aimed at creating and evaluating a language assessment test for [Romani](https://en.wikipedia.org/wiki/Romani_people) children in Europe. Children growing up speaking Romani are often misdiagnosed with cognitive deficiency in school-entry exams because they cannot speak the dominant language of the country they live in. As a result, they get misplaced into special education and face severe social stigma when they become adults. However, without acknowledging the systemic racism towards the ethnic group of Roma people, some studies (and [the eugenicist scientists](https://psychology.uwo.ca/people/faculty/remembrance/rushton.html)) have attributed the poor performance of Roma kids in schools or on IQ tests with their ethnicity. Research, just like algorithms described in *Data Feminism*, can carry the unjust biases from the society to create the **racist science** and fuel the oppression on minority groups.
+
+Especially in quantitative studies that focus on one or several specific characteristics of particular populations, it is undeniable that we are **reducing people's life experiences to numbers** and then building our theories out of the data. Scientists need to be constantly cautious and try to examine and challenge the power dynamics in the process of doing research.

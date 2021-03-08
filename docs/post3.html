@@ -11,7 +11,7 @@
 
 
 
-<title>Yanwan’s website</title>
+<title>SDS 410 Blog Post #3</title>
 
 <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -208,6 +211,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -215,6 +281,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -300,16 +376,28 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Yanwan’s website</h1>
+<h1 class="title toc-ignore">SDS 410 Blog Post #3</h1>
 
 </div>
 
 
-<p>Sharing thoughts on <em>Data Feminism</em></p>
-<p><img src="https://media.giphy.com/media/h87JEijd90iwilNhGy/giphy.gif" /></p>
+<div id="data-justice-and-science-ethics" class="section level2">
+<h2>Data Justice and Science Ethics</h2>
+<div id="thoughts-on-chapter-3-of-data-feminism" class="section level3">
+<h3>Thoughts on Chapter 3 of <em>Data Feminism</em></h3>
+<p>Chapter 3 reminds me of some practices of scientific research in the field of cognitive science, a field that I am most familiar with. While such practices are not really about creating algorithms or systems, many of them are making generalizations about populations, usually applying some quantitative methods. Therefore, I would like to talk about some ideas that came to my mind, in parallel with the main themes of this chapter.</p>
+<p>Cognitive science research benefits from looking into so-called “atypical population”, such as neurodivergent people or the Deaf community. Due to the perpetuating social stigmas, researchers should always keep in mind the hazard of creating <strong>“the deficit narratives”</strong> in science that reduce a group or culture to its “problems” or particular characteristics.</p>
+<p>For example, the Deaf community (with the D) often considers Deafness (again, D) as a culture, rather than as a disability or deficiency commonly reflected in the ableist narrative of our mainstream society. Researchers need to be mindful about this important fact while interacting with their subjects in the data collection process. Some linguists has also called out hearing researchers who do not make any effort to learn sign language and rely on bilingual consultants, criticizing that they were merely trying to take advantage of the Deaf community without even acknowledging their language and culture.</p>
+<p>In addition, the <strong>“imagined objectivity of data”</strong> also comes into play in scientific studies. Research data are often collected to verify or invalidate hypothesis and theories, so scientists need to take the responsibility to hold their research accountable, or the literature would be infused with oppressive ideas.</p>
+<p>When I was doing my SURF, I worked on a project that aimed at creating and evaluating a language assessment test for <a href="https://en.wikipedia.org/wiki/Romani_people">Romani</a> children in Europe. Children growing up speaking Romani are often misdiagnosed with cognitive deficiency in school-entry exams because they cannot speak the dominant language of the country they live in. As a result, they get misplaced into special education and face severe social stigma when they become adults. However, without acknowledging the systemic racism towards the ethnic group of Roma people, some studies (and <a href="https://psychology.uwo.ca/people/faculty/remembrance/rushton.html">the eugenicist scientists</a>) have attributed the poor performance of Roma kids in schools or on IQ tests with their ethnicity. Research, just like algorithms described in <em>Data Feminism</em>, can carry the unjust biases from the society to create the <strong>racist science</strong> and fuel the oppression on minority groups.</p>
+<p>Especially in quantitative studies that focus on one or several specific characteristics of particular populations, it is undeniable that we are <strong>reducing people’s life experiences to numbers</strong> and then building our theories out of the data. Scientists need to be constantly cautious and try to examine and challenge the power dynamics in the process of doing research.</p>
+</div>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -342,6 +430,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
